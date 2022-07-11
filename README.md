@@ -12,6 +12,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * [React Router](https://reactrouter.com/)
 * [React Icons](https://react-icons.github.io/react-icons/)
 * [React Recharts](https://recharts.org/)
+* [React Reveal](https://www.react-reveal.com)
 
 
 

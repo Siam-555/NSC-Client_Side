@@ -1,5 +1,6 @@
 import React from 'react';
 import { BsPersonCircle } from 'react-icons/bs';
+import { Zoom } from 'react-reveal';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -19,7 +20,9 @@ const Navbar = () => {
             {listItem}
           </ul>
         </div>
-        <Link to='/home' className="btn btn-ghost normal-case text-xl">নরসিংদী বিজ্ঞান কলেজ</Link>
+        <Zoom>
+          <Link to='/home' className="btn btn-ghost normal-case text-xl">নরসিংদী বিজ্ঞান কলেজ</Link>
+        </Zoom>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal p-0">
