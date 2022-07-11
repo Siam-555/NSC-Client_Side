@@ -1,4 +1,5 @@
 import React from 'react';
+import { BsPersonCircle } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -37,9 +38,10 @@ const Navbar = () => {
           </li> */}
 
       </div>
-      {/* <div className="navbar-end">
-        <Link to='/home' className="btn">Get started</Link>
-      </div> */}
+      <div className="navbar-end">
+        {/* <Link to='/home' className="btn">Get started</Link> */}
+        <Link to='/login'><BsPersonCircle /></Link>
+      </div>
     </div>
   );
 };
