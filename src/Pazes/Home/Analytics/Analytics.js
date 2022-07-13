@@ -47,9 +47,8 @@ const Analytics = () => {
     }
   ]
   return (
-    <div>
+    <div className=' mt-10 flex justify-center'>
       <LineChart width={730} height={250} data={data}
-      animationDuriation={5000}
         margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
         <CartesianGrid strokeDasharray="4 4" />
         <XAxis dataKey="Year" />

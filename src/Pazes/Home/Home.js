@@ -3,12 +3,16 @@ import { Fade } from 'react-reveal';
 import Footer from '../Shared/Footer/Footer';
 import Navbar from '../Shared/Navbar/Navbar';
 import Analytics from './Analytics/Analytics';
+import Header from './Header/Header';
 
 const Home = () => {
   return (
     <div>
       <Navbar />
-      <Fade del>
+      <Fade>
+        <Header />
+      </Fade>
+      <Fade delay={100}>
         <Analytics />
       </Fade>
       <Footer />
