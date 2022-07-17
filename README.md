@@ -14,5 +14,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * [React Recharts](https://recharts.org/)
 * [React Reveal](https://www.react-reveal.com)
 
-
-
+* [Firebase](https://firebase.google.com/)
+* [React Hook Form](https://react-hook-form.com/)

@@ -12,7 +12,7 @@ const Home = () => {
       <Fade>
         <Header />
       </Fade>
-      <Fade delay={100}>
+      <Fade delay={300}>
         <Analytics />
       </Fade>
       <Footer />
